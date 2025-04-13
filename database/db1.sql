@@ -126,7 +126,7 @@ CREATE TABLE `company` (
 
 LOCK TABLES `company` WRITE;
 /*!40000 ALTER TABLE `company` DISABLE KEYS */;
-INSERT INTO `company` VALUES (2,'Amit','Co-ordinator','India','Madhya Pradesh','Indore','7987487551','www.scsplacementcelll.com','amit@gmail.com','ZTM4OGYwMmY3NTBlNjVlYmJhOTVhYjk0OTNjZGEwMWU=','Student','627635c95a472.jpg','2022-05-05 08:43:22',1);
+INSERT INTO `company` VALUES (2,'Kamlesh','Co-ordinator','India','Bihar','Samastipur','1234567890','www.placementcelll.com','kamlesh@gmail.com','ZTM4OGYwMmY3NTBlNjVlYmJhOTVhYjk0OTNjZGEwMWU=','Student','627635c95a472.jpg','2025-04-14 08:43:22',1);
 /*!40000 ALTER TABLE `company` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -238,7 +238,7 @@ CREATE TABLE `notice` (
 
 LOCK TABLES `notice` WRITE;
 /*!40000 ALTER TABLE `notice` DISABLE KEYS */;
-INSERT INTO `notice` VALUES (23,'Placement Result for Accenture','Narendra Kumar','All Students','2022-05-10 12:53:43'),(24,'Placement Result for Cognizant','Amit','Co-ordinators','2022-05-10 12:54:06');
+INSERT INTO `notice` VALUES (01,'Placement Result for Accenture','kamlesh Kumar','All Students','2025-04-14 12:53:43'),(02,'Placement Result for Cognizant','kamlesh yadav','Co-ordinators','2025-04-14 12:54:06');
 /*!40000 ALTER TABLE `notice` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -337,7 +337,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'Narendra','Kumar','narendra@gmail.com','ZTM4OGYwMmY3NTBlNjVlYmJhOTVhYjk0OTNjZGEwMWU=','32, ANNAPURNA COLONY\r\nKODARIYA','MHOW','Madhya Pradesh','7987487551','MCA','','','','','','627b82a7732d4.','0e52568ac719e70f13c79b8c18020d67',1,'Student','Web Development','80',80,65,65);
+INSERT INTO `users` VALUES (1,'kamlesh','Kumar','kamlesh@gmail.com','ZTM4OGYwMmY3NTBlNjVlYmJhOTVhYjk0OTNjZGEwMWU=','32,   Banjara Gali\r\nSalaqui','Dehradun','Uttarakhand','0101010101','BTech','','','','','','627b82a7732d4.','0e52568ac719e70f13c79b8c18020d67',1,'Student','Web Development','80',80,65,65);
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
