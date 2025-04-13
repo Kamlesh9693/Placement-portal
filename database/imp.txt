@@ -7,18 +7,7 @@ admin
 
 
 
-coordinator login:
 
-sumit: abc@gmail.com
-123456
-
-student login
-atinder@gmail.com
-123456
-
-
-jatin@gmail.com
-123456
 
 
 # common header/footer and link code are in php folder
